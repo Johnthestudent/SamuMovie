@@ -55,6 +55,11 @@ class GameOfLife : public QThread
     void house ( bool **lattice, int x, int y );
     int housex {0};
 
+    void batman ( bool **lattice, int x, int y );
+    int batmanx {0};
+
+    void superman ( bool **lattice, int x, int y );
+    int supermanx {0};
 
     bool **predictions;
     void learning();
